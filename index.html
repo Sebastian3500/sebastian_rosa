@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sebastian Rosa - Portafolio de Programador</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    </head>
+<body>
+
+    <header class="header">
+  <div class="container">
+    <nav class="main-nav">
+      <button class="menu-toggle" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-list">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Menú lateral móvil -->
+  <aside class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-header">
+      <button class="close-menu" aria-label="Cerrar menú">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </aside>
+  <div class="mobile-menu-backdrop" id="menuBackdrop"></div>
+</header>
+
+    <section id="hero" class="hero-section">
+        <div class="container tcenter">
+            <div class="left-container">
+              <img src="/images/avatar.png" alt="Avatar de Sebastian Rosa">
+            </div>
+            <div class="right-container">
+              <span>Hello, I'm</span>
+              <h1>Sebastian <br> Rosa</h1>
+              <p>Web Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="tcenter">Habilities</h2>
+            <div class="skills-sections">
+                <div class="skill-item code-item">
+                    <img src="/images/code.svg" alt="Code">
+                </div>
+                <div class="skill-item backend-item">
+                    <img src="/images/backend.svg" alt="Backend">
+                </div>
+                <div class="skill-item tools-item">
+                    <img src="/images/tools.svg" alt="Tools">
+                </div>
+                <div class="skill-item concepts-item">
+                    <img src="/images/concepts.svg" alt="Concepts">
+                </div>
+
+                <div class="desc-container code-container">
+                    <p>Languages & Frameworks</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS3 (including SCSS)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Vue.js</li>
+                        <li>Vuetify 3</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="desc-container backend-container">
+                    <p>Backend Interaction</p>
+                    <ul>
+                        <li>Consumption of RESTful APIs</li>
+                        <li>Axios for HTTP requests</li>
+                    </ul>
+                </div>
+                <div class="desc-container tools-container">
+                    <p>Tools & Version Control</p>
+                    <ul>
+                        <li>Git & GitHub (or GitLab/Bitbucket)</li>
+                        <li>NPM / Yarn</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="desc-container concepts-container">
+                    <p>Concepts & Methodologies</p>
+                    <ul>
+                        <li>Agile Development</li>
+                        <li>Responsive Development</li>
+                        <li>User Experience (UX)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section bg-secondary">
+        <div class="container">
+            <h2 class="tcenter">Projects</h2>
+            <div class="projects-section">
+              <div class="card-project">
+                <img src="/images/project_1.png" alt="Project 1">
+                <h3 style="margin-bottom: 4px;">4 My Future</h3>
+                <p style="margin-bottom: 8px;" class="tcenter">Student-focused crowdfunding platform.</p>
+                <a href="#" class="btn btn-secondary">
+                  View Project
+                  <i class="fas fa-eye icon" style="margin-left: 8px;"></i>
+                </a>
+              </div>
+
+              <div class="card-project">
+                <img src="/images/trade.png" alt="Project 2" class="trade-img">
+                <h3 style="margin-bottom: 4px;">Trade Hub</h3>
+                <p style="margin-bottom: 8px;" class="tcenter">Decentralized trading platform for digital assets.</p>
+                <a href="#" class="btn btn-secondary">
+                  View Project
+                  <i class="fas fa-eye icon" style="margin-left: 8px;"></i>
+                </a>
+              </div>
+
+              <div class="card-project">
+                <img src="/images/kinder.png" alt="Project 3">
+                <h3 style="margin-bottom: 4px;">Kinder Castle Rock</h3>
+                <p style="margin-bottom: 8px;" class="tcenter">Web-based kindergarten management system.</p>
+                <a href="#" class="btn btn-secondary">
+                  View Project
+                  <i class="fas fa-eye icon" style="margin-left: 8px;"></i>
+                </a>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="tcenter">About me</h2>
+            <p>I'm a passionate frontend developer who sees code as a blank canvas to create solutions with real impact. Beyond frameworks and lines of code, what drives me is:
+            <br><br>
+            🚀 Solving problems creatively and efficiently
+            <br><br>
+            🌱 Constant learning (my favorite stack is the one I don't know yet!)
+            <br><br>
+            🎨 Balancing logic and design to build intuitive experiences
+            <br><br>
+
+            <span style="font-style: italic;">"I believe technology should be as human as it is functional. When I'm not coding, you'll likely find me:</span>
+            <br><br>
+            📚 Reading about new tech trends
+            <br><br>
+            🎧 Listening to a dev podcast
+            <br><br>
+            👨‍💻 Contributing to open-source projects"
+            <br><br>
+            <b>My goal:</b> To collaborate with teams where I can grow, share ideas, and leave my mark on products that improve lives.
+
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container tcenter">
+            <h2>Contact</h2>
+            <form action="https://formspree.io/f/xeozzkdg" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-links">
+          <a href="https://linkedin.com/in/sebastian-rosa-b959b3252" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/Sebastian3500" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="mailto:sebastianrosa39@gmail.com">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/sebastianrosa23/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="container tcenter">
+            <p>&copy; 2025 Sebastian Rosa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    </body>
+</html>
+
+
+<script>
+let hoverTimeout;
+
+function handleSkillHover(skillItem, show = true) {
+  const type = skillItem.classList[1].replace('-item', '');
+  const desc = document.querySelector(`.skills-sections .${type}-container`);
+  
+  clearTimeout(hoverTimeout);
+  
+  if (show) {
+    document.querySelectorAll('.skills-sections .desc-container').forEach(d => d.classList.remove('active'));
+    void desc.offsetWidth;
+    desc.classList.add('active');
+  } else {
+    hoverTimeout = setTimeout(() => desc.classList.remove('active'), 300);
+  }
+}
+
+document.querySelectorAll('.skills-sections .skill-item').forEach(item => {
+  item.addEventListener('mouseenter', () => handleSkillHover(item, true));
+  item.addEventListener('mouseleave', () => handleSkillHover(item, false));
+});
+
+document.querySelectorAll('.skills-sections .desc-container').forEach(desc => {
+  desc.addEventListener('mouseenter', () => clearTimeout(hoverTimeout));
+  desc.addEventListener('mouseleave', () => {
+    hoverTimeout = setTimeout(() => desc.classList.remove('active'), 300);
+  });
+});
+
+  // Menú móvil
+  const menuToggle = document.querySelector('.menu-toggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  const menuBackdrop = document.getElementById('menuBackdrop');
+  const closeMenuBtn = document.querySelector('.close-menu');
+  const mobileMenuLinks = document.querySelectorAll('.mobile-menu a');
+
+  function openMobileMenu() {
+    mobileMenu.classList.add('open');
+    menuBackdrop.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+  function closeMobileMenu() {
+    mobileMenu.classList.remove('open');
+    menuBackdrop.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+
+  menuToggle.addEventListener('click', openMobileMenu);
+  closeMenuBtn.addEventListener('click', closeMobileMenu);
+  menuBackdrop.addEventListener('click', closeMobileMenu);
+
+  // Cierra el menú al hacer click en cualquier link del menú móvil
+  mobileMenuLinks.forEach(link => {
+    link.addEventListener('click', closeMobileMenu);
+  });
+</script>
